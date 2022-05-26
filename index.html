@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Document</title>
+    <script src="app.js"></script>
+    
+</head>
+<body>
+    <div class="header">
+    <div id="c1" class="container">
+    <div class="navbar">
+        <div class="logo">
+           <a href="C:\Users\hp\Desktop\ellexy\index.html"> <img src="OXY-removebg-preview.png" width="60px"  alt=""></a>
+        </div>
+        <a href="#"> <img src="menu.png" style="background-color: white;" class="menu-icon" onclick="menutoggle()" alt=""></a>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1><b>Curreny <br>Converter</b></h1>
+            <p style="color: white;"><b> Success isn't always about 
+                greatness. It is about consistency. <br> Consistent hard work gains success. <br>Greatness will come.</b></p>
+        </div>
+        <div class="col-2">
+            <img src="mon.png" alt="">
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+
+    MenuItems.style.maxHeight = "0px"
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+<!-- body work -->
+
+<div class="container" style="text-align: center; color: black;">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2><b>Convert Now</b></h2>
+        </div>
+    </div>
+</div>
+
+<div style="margin-top: 5%;" class="container-fluid">
+    <div id="ccc" class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h1 id="white"><b>Distance Converter</b></h1>
+            <br>
+            <p id="white"><b>Our Distance Converter Includes The Following:</b></p>
+            <br>
+            <p id="white"><b>1) Dollar</b></p>
+            <p id="white"><b>2) Dharam</b></p>
+            <p id="white"><b>3) Taka</b></p>
+            <p><b>4) Euro</b></p>
+            <p><b>5) Riyal</b></p>
+            <p><b>6) Dinar</b></p>
+            <p><b>7) Pound</b></p>
+            <p><b>8) Indian Rs.</b></p>
+            <br>
+            <p id="white"><b> Customer Review By Stars</b></p>
+        </div>
+        <div style="text-align: center;" class="col-sm-6">
+            <h1 id="white"><b>Try Now!</b></h1>
+            <input style="border-radius: 25px;" type="text"  id="pkr" class="form-control" placeholder="Enter Your Amount In PKR.">
+            <br>
+            <div class="row">
+            <div class="col-sm-6">
+            <select id="s1" style="border-radius: 25px; width: 100%;"  class="form-control">
+                <option value="">Select</option>
+                <option value="dollar">Dollar</option>
+                <option value="dharam">Dharam</option>
+                <option value="taka">Taka</option>
+                <option value="euro">Euro</option>
+                <option value="riyal">Riyal</option>
+                <option value="dinar">Dinar</option>
+                <option value="pound">Pound</option>
+                <option value="indianrs">Indian Rs.</option>
+            </select>
+        </div>
+        <div class="col-sm-6">
+            <button class="btn" style="width: 100%; border-radius: 25px; background-color: yellow;" onclick="currency()"><b> Convert </b></button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12" style="margin-top: 20px;">
+            <input style="border-radius: 25px;" type="text"  id="s2" class="form-control" placeholder="Your Answere Will Show Here">
+            <br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
